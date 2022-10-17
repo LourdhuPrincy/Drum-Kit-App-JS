@@ -8,4 +8,6 @@
 
 In this drum kit app we can get particular drum effects when we press the button an also while pressing the particular character on keyboard.I have used constructor function 'new Audio()' to get sound effects.
 
+[live link](https://drum-kit-app-js.netlify.app/)
+
 ![screen shot](./images/screen-shot.png)
