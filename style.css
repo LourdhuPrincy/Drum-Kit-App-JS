@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Satisfy&display=swap');
+
+body{
+    margin: 10px;
+}
+.container{
+    background:url('./images/drumkit.jpg') no-repeat center ;
+    height:100vh;
+    width:full;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    text-align: center;
+    color:#B9345A;
+}
+button{
+    height:45px;
+    width:45px;
+    padding:10px;
+    border-radius: 50%;
+    background-color:#B9345A;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    box-shadow: 0 0 3px 2px #1f1e1e ;
+    border:none;
+    transition:box-shadow 100ms ease-in-out;
+}
+.active{
+  box-shadow: 0 0 5px 3px #413f3f ;
+  background-color: rgb(41, 194, 41);
+  transform: scale(1.1);
+  /* border:none; */
+}
+.kits{
+    position:relative;
+}
+button:first-child{
+    position:absolute;
+    top:10px;
+    left:50%;
+}
+button:nth-child(2){
+    position:absolute;
+    top:155px;
+    left:35%;
+}
+button:nth-child(3){
+    position:absolute;
+    top:170px;
+    left:45%;
+}
+button:nth-child(4){
+    position:absolute;
+    top:180px;
+    left:54%;
+}
+button:nth-child(5){
+    position:absolute;
+    top:290px;
+    left:62%;
+}
+button:nth-child(6){
+    position:absolute;
+    top:300px;
+    left:39%;
+}
+button:nth-child(7){
+    position:absolute;
+    top:160px;
+    left:66%;
+}
+button:nth-child(8){
+    position:absolute;
+    top:250px;
+    left:29%;
+}
+button:nth-child(9){
+    position:absolute;
+    top:340px;
+    left:29%;
+}
+@media screen and (max-width:640px) {
+  .container{
+    width:100vw;
+    background:url('./images/drumkit-1.jpg') no-repeat cover;
+  } 
+  button:nth-child(2){
+    left:10%;
+  } 
+  button:nth-child(3){
+    left:35%;
+  }
+  button:nth-child(4){
+    left:60%;
+  }
+  button:nth-child(5){
+    left: 80%;
+  }
+  button:nth-child(6){
+    left:23%;
+  }
+  button:nth-child(7){
+    left:85%;
+  }
+  button:nth-child(8),button:nth-child(9){
+    left:2%;
+  }
+}
+
+@media screen and (max-width:1180px) and (min-width:641px) {
+    .container{
+      width:100vw;
+      background:url('./images/drumkit-1.jpg') no-repeat cover;
+    } 
+    button:nth-child(2){
+      left:30%;
+    } 
+    button:nth-child(3){
+      left:43%;
+    }
+    button:nth-child(4){
+      left:59%;
+    }
+    button:nth-child(5){
+      left: 65%;
+    }
+    button:nth-child(6){
+      left:35%;
+    }
+    button:nth-child(7){
+      left:70%;
+    }
+    button:nth-child(8),button:nth-child(9){
+      left:20%;
+    }
+  }
